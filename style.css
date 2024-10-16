@@ -185,18 +185,67 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 30px;
+    margin-bottom: 50px;
 
 }
 
 
 .fulltarget {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    gap: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 .targetone {
     border-radius: 16px;
-
     background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.target{
+    text-align: center;
+}
+
+
+.targettwo {
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 60px;
+}
+
+
+.targetthree {
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    padding: 60px;
+}
+
+
+.fullnext{
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.book{
+    
 }
