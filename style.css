@@ -247,5 +247,13 @@ background: rgba(255, 223, 0, 0.05);
 }
 
 .book{
-    
+    background-image: url(images//handshake.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 100px;
+
+  
+ 
+
+
 }
